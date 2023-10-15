@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./Select.scss";
 import { IoIosArrowDown } from "react-icons/io";
 
@@ -53,7 +53,7 @@ const Select = ({
             style={open ? { display: "block" } : { display: "none" }}
             className="selectContentWrapper"
           >
-            {options.map((option: option, index) => (
+            {options.map((option: option, index: React.Key) => (
               <p
                 key={index}
                 className={`selectContent ${

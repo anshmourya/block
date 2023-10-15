@@ -49,9 +49,6 @@ const NavBar = () => {
                 <Link
                   to={item.href}
                   className="font-semibold text-black cursor-pointer "
-                  activeClass="active"
-                  smooth
-                  spy
                 >
                   {item.text}
                 </Link>
@@ -64,13 +61,7 @@ const NavBar = () => {
         <ul className="items-center justify-around hidden gap-5 md:flex">
           {menuItems.map((item) => (
             <li key={item.id}>
-              <Link
-                to={item.href}
-                activeClass="active"
-                smooth
-                spy
-                className="cursor-pointer "
-              >
+              <Link to={item.href} className="cursor-pointer ">
                 {item.text}
               </Link>
             </li>
