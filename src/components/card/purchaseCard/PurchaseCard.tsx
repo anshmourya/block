@@ -17,7 +17,7 @@ const PurchaseCard = ({ details }: productDetails) => {
   return (
     <>
       <div>
-        <div className="max-w-[296px] max-h-[400px] p-3 product-card border border-transparent transition-all cursor-pointer my-3">
+        <div className="max-w-[296px] max-h-[400px] p-3 product-card border border-transparent transition-all cursor-pointer my-3 m-auto">
           <img
             src={image || "./logo.png"}
             alt={title || "logo"}

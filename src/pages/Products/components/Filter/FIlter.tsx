@@ -58,7 +58,7 @@ const FIlter = () => {
           />
         ))}
       </div>
-      <div className="container grid grid-cols-4 gap-9 my-11">
+      <div className="container grid grid-cols-1 m-auto gap-9 my-11 md:grid-cols-3 lg:grid-cols-4 ">
         <CardRender />
       </div>
     </>
