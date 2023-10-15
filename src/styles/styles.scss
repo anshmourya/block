@@ -1,0 +1,42 @@
+.title {
+    @apply text-6xl font-bold;
+}
+
+.header {
+    @apply text-[42px] font-bold;
+}
+
+.subtitle {
+    @apply text-[20px] font-bold;
+}
+
+.semi-subtitle {
+    @apply text-[16px] font-bold;
+}
+
+.paragraph {
+    @apply text-[16px];
+}
+
+@media screen and (width <=768px) {
+    .title {
+        @apply text-[20px] font-bold;
+    }
+
+    .header {
+        line-height: 1.2;
+        @apply text-[24px] font-bold;
+    }
+
+    .subtitle {
+        @apply text-[18px] font-bold;
+    }
+
+    .semi-subtitle {
+        @apply text-[18px] font-bold;
+    }
+
+    .paragraph {
+        @apply text-[15px];
+    }
+}
